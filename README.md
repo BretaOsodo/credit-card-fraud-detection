@@ -3,7 +3,7 @@
 A sophisticated machine learning system for detecting fraudulent credit card transactions. This project implements a precision-optimized two-stage detection approach that reduces false positives by 73% while maintaining effective fraud detection capabilities.
 
 ## Business Impact Analysis
-####Major Operational Improvement
+#### Major Operational Improvement
   
   1. 73% Fewer False Alerts - Dramatically reduces manual review workload
   2. 29.5% Higher Precision - More accurate fraud detection
@@ -13,18 +13,13 @@ A sophisticated machine learning system for detecting fraudulent credit card tra
 ## Cost-Benefit Tradeoff
 
 While the two-stage system reduces recall, it provides substantial business benefits:
-*Fewer legitimate transactions blocked → Better customer experience
-*Reduced investigation costs → Higher operational efficiency
-*More focused fraud team → Better resource allocation
+
+1. Fewer legitimate transactions blocked → Better customer experience
+2. Reduced investigation costs → Higher operational efficiency
+3. More focused fraud team → Better resource allocation
 
 ##System Architecture
 Precision-Optimized Two-Stage Framework.
 
-graph TD
-    A[Transaction Data] --> B[Stage 1: XGBoost Screener]
-    B -->|Balanced Detection| C[Suspicious Transactions]
-    B -->|Auto-approve| D[Legitimate Transactions]
-    C --> E[Stage 2: Precision Filter]
-    E -->|High Precision| F[Confirmed Fraud]
-    E -->|Clear| G[73% Fewer False Alerts]
-    F --> H[Focused Investigation]
+<img width="2116" height="2105" alt="deepseek_mermaid_20251110_561fde" src="https://github.com/user-attachments/assets/2ff66337-8f93-422d-b0aa-1b5cb253475b" />
+
