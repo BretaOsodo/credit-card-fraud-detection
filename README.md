@@ -18,8 +18,15 @@ While the two-stage system reduces recall, it provides substantial business bene
 2. Reduced investigation costs → Higher operational efficiency
 3. More focused fraud team → Better resource allocation
 
-##System Architecture
+## System Architecture
+
 Precision-Optimized Two-Stage Framework.
 
 <img width="2116" height="2105" alt="deepseek_mermaid_20251110_561fde" src="https://github.com/user-attachments/assets/2ff66337-8f93-422d-b0aa-1b5cb253475b" />
+
+## Strategic Design Choice
+
+1. Stage 1: Balanced detection with moderate recall
+2. Stage 2: Aggressive false positive reduction
+3. Result: Operational efficiency with acceptable fraud coverage
 
